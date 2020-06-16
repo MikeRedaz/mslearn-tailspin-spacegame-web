@@ -63,6 +63,7 @@ stages:
         vmImage: 'windows-latest' 
 
       environment: 'Development' 
+
       strategy: 
         runOnce: 
           deploy: 
@@ -84,6 +85,7 @@ stages:
         vmImage: 'windows-latest' 
 
       environment: 'QA' 
+      
       strategy: 
         runOnce: 
           deploy: 
